@@ -1,0 +1,21 @@
+@font-face {
+    src: url('./fonts/Inter-Regular.otf');
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    src: url('./fonts/Inter-Bold.otf');
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+}
+
+.page{
+width: 1280px;
+height: 6874px;
+background-color: #2A2C2F;
+margin: 0 auto;
+padding: 0;
+position: relative;
+}
