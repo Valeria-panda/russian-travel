@@ -1,0 +1,21 @@
+@font-face{
+    src: url('/fonts/Inter-Regular.otf');
+    font-family: 'Inter'; 
+    font-weight: normal;
+}
+@font-face{
+    src: url('/fonts/Inter-Bold.otf');
+    font-family: 'Inter'; 
+    font-weight: bold;
+}
+
+.page__content{
+    min-width:302px;
+    max-width:1184px ;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background: #2A2C2F;
+}
