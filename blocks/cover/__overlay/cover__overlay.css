@@ -1,0 +1,32 @@
+.cover__overlay{
+    max-height: 740px;
+    height: 100%; 
+    object-fit: fill;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 92px 48px 46px;
+    background: #2A2C2F;
+    opacity: 0.3;
+    position: absolute;
+    cursor: url("/images/Imported\ Layers\ Copy\ 4.svg");
+}
+
+.cover__overlay:hover{
+    transition: ease-in .4s;
+    opacity: 0.8;   
+}
+@media (max-width:1024px){
+    .cover__overlay{
+        padding: 0 0 46px;
+    }
+}
+@media (max-width:768px){
+    .cover__overlay{
+        padding: 0 0 44px;
+    }
+}
+@media (max-width:320px){
+    .cover__overlay{
+        padding: 0;
+    }
+}

@@ -1,0 +1,25 @@
+.cover__background{
+    max-height: 740px;
+    height: 100%; 
+    object-fit:  fill;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 92px 48px 46px;
+}
+
+@media (max-width:1024px){
+    .cover__background{
+        padding: 0 0 46px;
+    }
+}
+@media (max-width:768px){
+    .cover__background{
+        padding: 0 0 44px;
+    }
+}
+@media (max-width:320px){
+    .cover__background{
+        padding: 0;
+    }
+}
+

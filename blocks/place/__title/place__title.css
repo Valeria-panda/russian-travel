@@ -1,0 +1,44 @@
+.place__title{
+    max-width: 460px;
+    width: 100%;
+    margin: 0;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 1.05;
+    color: #FFFFFF;
+    align-self: end;
+}
+
+
+@media (min-width:1280px){
+    .place__title{
+       
+    }
+}
+@media (min-width:1024px) and (max-width:1280px){
+    .place__title{
+        
+    }
+}
+@media (min-width:768px) and (max-width:1024px){
+    .place__title{
+        font-size: 42px;
+        line-height: 1.09;
+    }
+}
+@media (min-width:425px) and (max-width:768px){
+    .place__title{
+        font-size: 32px;
+        line-height: 1.09;
+        
+    }
+}
+@media (max-width:425px){
+    .place__title{
+        font-size: 32px;
+        line-height: 1.09;
+        padding: 0 16px;
+    }
+}
