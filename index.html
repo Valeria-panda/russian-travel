@@ -3,35 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./fonts.css">
     <link rel="stylesheet" href="./pages/index.css">
-    <title>Russian-travel</title>
+    <title>Путешествия по России</title>
     <meta name="description" content="проектная работа 3 на Яндекс Практикуме">
     <meta name="keywords" content="html, css, javascript">
     <meta name="author" content="Валерия Золотарёва">
 </head>
 <body class="root">
-  <div class="page">
-    <div class="page__content">
+  <div class="page"> 
       <header class="header section">
         <div class="header__logo">
-        <img class="header__logo-image" src="./images/logo.svg" alt="Russian logo">
+          <img class="header__logo-image" src="./images/logo.svg" alt="Логотип карта России">
         </div>
         <ul class="header__lang-list"> 
-          <li><a href="#" class="header__lang-link" title="Переключить язык на русский">RU</a></li>
-          <li><a href="#" class="header__lang-link" title="Switch to English">EN</a></li>
+          <li><a href="#" class="header__lang-link header__lang-link_active" title="Переключить язык на русский">Ru</a></li>
+          <li><a href="#" class="header__lang-link header__lang-link_active" title="Switch to English">En</a></li>
         </ul>
       </header>
-      <main class="content">
+      <main class="content section">
         <section class="lead section">
           <h1 class="lead__title">Путешествия по России</h1>
           <p class="lead__subtitle">Настоящая страна не в выпусках 
           новостей, а здесь.</p>
-          <img class="lead__image" src="./images/leadimage.png" alt="Train picture">
+          <img class="lead__image" src="./images/leadimage.png" alt="Плацкартный вагон">
           <p class="lead__caption">ваша полка — верхняя</p>
         </section>
         <section class="intro section">
-          <h2 class="intro__title">Чего мы там не видели?</h2>
+          <h2 class="intro__title"> Чего мы там не видели?</h2>
           <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, 
             но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? 
             На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и 
@@ -41,10 +39,10 @@
             по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
           <ul class="intro__list">
             <li>Часовых поясов 11</li>
-            <li>Объектов природного наследия ЮНЕСКО 12</li>
-            <li>Объектов культурного наследия ЮНЕСКО 16</li>
-            <li>Природных заповедников 105</li>
-            <li>Аэропортов 241</li>
+            <li>Объектов природного наследия ЮНЕСКО <span class="intro__list-number">12</span></li>
+            <li>Объектов культурного наследия ЮНЕСКО <span class="intro__list-number">16</span></li>
+            <li>Природных заповедников <span class="intro__list-number">105</span></li>
+            <li>Аэропортов <span class="intro__list-number">241</span></li>
           </ul>
         </section>
         <section class="photo-grid section">
@@ -89,7 +87,7 @@
         </section>
         <section class="places section">
             <div class="place">
-              <h2 class="place__title">Куршская коса</h2>
+              <h2 class="place__title">Куршская <br>коса</h2>
               <div class="website">
                 <p class="website__url-heading">URL</p>
                 <a class="website__link" href="http://park-kosa.ru">park-kosa.ru</a>
@@ -156,27 +154,26 @@
             </div>
         </section> 
         <section class="cover section">
+          <h2 class="cover__title">До Байкала <br>«на собаках»</h2>
+          <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до 
+              Байкала на электричках.</p>
+          <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala">
             <img class="cover__background" src="./images/trains.png" alt="Поезда уходящие в закат">
-              <div class="cover__overlay"></div>
-            <div class="cover__text">
-            <a class="cover__title" href="https://stampsy.com/na-elektrichkakh-do-baikala">До Байкала «на собаках»</a>
-            <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</p>
-            </div>
+          </a>
         </section>
       </main>
       <footer class="footer section">
-        <div class="footer__links">
-          <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
-          <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
-          <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
-          <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
-          <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
-        </div>
-        <div class="footer__copyright">
-          <p class="footer__author">&copy; Валерия Золотарева</p>
-        </div>
+        <nav class="footer__links">
+          <ul class="footer__links-items">
+            <li><a class="footer__link" href="https://yandex.ru/maps">Карты</a></li>
+            <li><a class="footer__link" href="https://yandex.ru/pogoda">Погода</a></li>
+            <li><a class="footer__link" href="https://rasp.yandex.ru">Расписание</a></li>
+            <li><a class="footer__link" href="https://calendar.yandex.ru">Календарь</a></li>
+            <li><a class="footer__link" href="https://travel.yandex.ru">Путешествия</a></li>
+          </ul>
+        </nav>
+          <p class="footer__author">&copy; 2020. Валерия Золотарева</p>
       </footer>
-    </div>
   </div>
 </body>
 </html>

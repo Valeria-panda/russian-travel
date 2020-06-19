@@ -8,30 +8,14 @@
     margin: 0;
 }
 
-@media (min-width:1280px){
-    .place__image{
-          
-    }
-}
-@media (min-width:1024px) and (max-width:1280px){
+@media screen and (max-width:1025px){
     .place__image{
         max-width: 440px;
     }
 }
-@media (min-width:768px) and (max-width:1024px){
+@media screen and (max-width:769px){
     .place__image{
-        
-    }
-}
-@media (min-width:425px) and (max-width:768px){
-    .place__image{
-        max-width: 320px;
+        max-width: 340px;
         background-size: contain;
-    }
-}
-@media (max-width:425px){
-    .place__image{
-        
-        
     }
 }

@@ -1,6 +1,11 @@
-@import url(./__content/page__content.css);
-
 .page{
-    margin: 0;
+    width: 100%;
+    min-height: 100vh;
     color: #ffffff;
+    background: #2A2C2F;
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    padding: 0;
+    align-items: center;
 }

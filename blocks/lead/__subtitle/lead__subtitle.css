@@ -9,33 +9,15 @@
     margin: 0;
     margin: 32px 172px 32px;
 }
-@media (min-width:1280px){
+
+@media screen and (max-width:768px){
     .lead__subtitle{
-        font-weight: 400;
         font-size: 30px;
-        line-height: 1.2; 
-    }
-}
-@media (min-width:1024px) and (max-width:1280px){
-    .lead__subtitle{
-        margin: 32px 144px 28px; 
-    }
-}
-@media (min-width:768px) and (max-width:1024px){
-    .lead__subtitle{
-        font-size: 16px;
-        line-height: 1.25;
+        line-height: 1.2;
         margin: 32px 64px 28px;
     }
 }
-@media (min-width:425px) and (max-width:768px){
-    .lead__subtitle{
-        font-size: 16px;
-        line-height: 1.25;
-        margin: 32px 64px 28px;
-    }
-}
-@media (max-width:425px){
+@media screen and (max-width:425px){
     .lead__subtitle{
         font-size: 16px;
         line-height: 1.25;

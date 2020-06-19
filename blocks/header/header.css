@@ -2,35 +2,28 @@
 @import url(./__logo/header__logo-image.css);
 @import url(./__lang-list/header__lang-list.css);
 @import url(./__lang-link/header__lang-link.css);
+@import url(./__lang-link/_ative/header__lang-link_active.css);
 
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin:0 auto;
     padding: 28px 48px;
+    margin: 0 auto;
 }
-@media (min-width:1280px){
-    .header{
-        padding: 28px 48px;  
-    }
-}
-@media (min-width:1024px) and (max-width:1280px) {
+
+@media screen and (max-width:1025px) {
     .header{
         padding: 28px 48px 24px;
     }
 }
-@media (min-width:768px) and (max-width:1024px){
+@media screen and (max-width:769px){
     .header{
         padding: 28px 24px 24px;
     }
 }
-@media (min-width:425px) and (max-width:768px){
-    .header{
-        padding: 16px 16px 24px;
-    }
-}
-@media (max-width:425px){
+
+@media screen and (max-width:425px){
     .header{
         padding: 16px 16px 24px;
     }

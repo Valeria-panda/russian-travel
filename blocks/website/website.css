@@ -4,5 +4,10 @@
 .website{
     font-weight: 400;
     align-self: end;
- 
+}
+
+@media screen and (max-width:320px){
+    .website{
+        display: none;
+    }
 }

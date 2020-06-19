@@ -1,0 +1,11 @@
+.cover__link{
+    background-color: #2A2C2F;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.cover__link:hover{
+    opacity: 0.3;
+    transition: ease-in-out .5s;
+}
