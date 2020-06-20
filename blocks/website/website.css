@@ -1,13 +1,13 @@
 @import url(./__url-heading/website__url-heading.css);
 @import url(./__link/website__link.css);
 
-.website{
-    font-weight: 400;
-    align-self: end;
+.website {
+  font-weight: 400;
+  align-self: end;
 }
 
-@media screen and (max-width:320px){
-    .website{
-        display: none;
-    }
+@media screen and (max-width: 320px) {
+  .website {
+    display: none;
+  }
 }

@@ -1,28 +1,27 @@
-@import url(./__links/footer__links-items.css);
+@import url(./__links-items/footer__links-items.css);
 @import url(./__links/footer__links.css);
 @import url(./__link/footer__link.css);
 @import url(./__author/footer__author.css);
 
-.footer{
-    padding: 46px 48px 24px;
-    display: flex;
-    justify-content: space-between;
+.footer {
+  padding: 92px 48px 24px;
+  display: flex;
+  justify-content: space-between;
 }
 
-@media screen and (max-width:1025px){
-    .footer{
-        padding: 92px 48px 24px;  
-    }
+@media screen and (max-width: 1025px) {
+  .footer {
+    padding: 92px 48px 24px;
+  }
 }
-@media screen and (max-width:769px){
-    .footer{
-        padding: 88px 24px 24px;
-    }
+@media screen and (max-width: 769px) {
+  .footer {
+    padding: 88px 24px 24px;
+  }
 }
-@media screen and (max-width:425px){
-    .footer{
-        padding: 64px 118px 24px 16px;
-        flex-direction: column;
-    }
+@media screen and (max-width: 425px) {
+  .footer {
+    padding: 64px 118px 24px 16px;
+    flex-direction: column;
+  }
 }
-

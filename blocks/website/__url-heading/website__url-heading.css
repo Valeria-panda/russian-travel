@@ -1,17 +1,15 @@
-.website__url-heading{
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1;
-    letter-spacing: 0.2em;
-    color: #AAAAAA;
+.website__url-heading {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 0.2em;
+  color: #aaaaaa;
 }
 
-@media screen and (max-width:767px){
-    .website__url-heading{
-        font-size: 12px;
-        line-height: 12px;
-        display: none;
-    }
+@media screen and (max-width: 767px) {
+  .website__url-heading {
+    display: none;
+  }
 }

@@ -1,24 +1,23 @@
-.footer__author{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.14;
-    margin: 0;
-    color: #FFFFFF;  
-    display: flex;
-    align-items: flex-end;
+.footer__author {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  margin: 0;
+  color: #ffffff;
+  display: flex;
+  align-items: flex-end;
 }
 
-@media screen and (max-width:769px){
-    .footer__author{
-        font-size: 14px;
-        line-height: 1.14;
-    }
+@media screen and (max-width: 769px) {
+  .footer__author {
+    font-size: 14px;
+    line-height: 1.14;
+  }
 }
-@media screen and (max-width:425px){
-    .footer__author{
-        min-width: 250px;
-        margin-top: 48px;
-        font-size: 14px;
-        line-height: 1;
-    }
+@media screen and (max-width: 425px) {
+  .footer__author {
+    min-width: 250px;
+    margin-top: 48px;
+    line-height: 1;
+  }
 }

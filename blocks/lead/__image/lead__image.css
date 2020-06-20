@@ -1,19 +1,18 @@
-.lead__image{
-    max-height: 100%;
-    object-fit:cover;
-    padding:32px 0 0;
-    width: 100%;
-    box-sizing: border-box;
+.lead__image {
+  max-height: 100%;
+  object-fit: cover;
+  padding: 32px 0 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 
-@media screen and (max-width:1024px){
-    .lead__image{
-        max-width: 928px;
-        padding:32px 0 0;
-    }
+@media screen and (max-width: 1024px) {
+  .lead__image {
+    max-width: 928px;
+  }
 }
-@media screen and (max-width:425px){
-    .lead__image{
-        padding:24px 0 0;
-    }
+@media screen and (max-width: 425px) {
+  .lead__image {
+    padding: 24px 0 0;
+  }
 }

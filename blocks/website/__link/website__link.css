@@ -1,20 +1,17 @@
-.website__link{
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.2;
-    text-decoration-line: underline;
-    color: #FFFFFF;
+.website__link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.2;
+  text-decoration-line: underline;
+  color: #ffffff;
 }
-.website__link:hover{
-    opacity: 0.8;
-    transition: ease-in .2s;
+.website__link:hover {
+  opacity: 0.8;
+  transition: ease-in 0.2s;
 }
 
-
-
-@media screen and (max-width:767px){
-    .website__link{
-        display: none;
-
-    }
+@media screen and (max-width: 767px) {
+  .website__link {
+    display: none;
+  }
 }

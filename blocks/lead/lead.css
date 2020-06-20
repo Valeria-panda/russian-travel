@@ -3,18 +3,18 @@
 @import url(./__subtitle/lead__subtitle.css);
 @import url(./__caption/lead__caption.css);
 
-.lead{
-    margin: 0 auto;
-    display: flex;
-    flex-direction:column ;
-    align-items: center;
-    max-width: 984px;
-    width: 100%;
-    padding-top: 28px;
+.lead {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 984px;
+  width: 100%;
+  padding-top: 28px;
 }
 
-@media screen and (max-width:425px){
-    .lead{
-        padding-top:24px;
-    }
+@media screen and (max-width: 425px) {
+  .lead {
+    padding-top: 24px;
+  }
 }
