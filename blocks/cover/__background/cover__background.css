@@ -6,8 +6,40 @@
   bottom: 0;
   z-index: -2;
   max-width: 100%;
-  height: 100%;
   width: 100%;
-  object-fit: contain;
+  max-height: 100%;
+  height: 100%;
+  object-fit: fill;
   display: block;
+  object-position: center;
+}
+@media screen and (max-width: 1025px) {
+  .cover__background {
+    max-height: 640px;
+  }
+}
+@media screen and (max-width: 888px) {
+  .cover__background {
+    max-height: 600px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cover__background {
+    max-height: 480px;
+  }
+}
+@media screen and (max-width: 605px) {
+  .cover__background {
+    max-height: 400px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .cover__background {
+    max-height: 300px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .cover__background {
+    max-height: 200px;
+  }
 }
