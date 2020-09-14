@@ -1,0 +1,22 @@
+.container__subtitle{
+    margin:0;
+    padding:0 0 30px 30px;
+    font-family: "Arial", helvetica, san-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.07;
+    color: #FFFFFF;
+    z-index:5;
+    box-sizing: border-box;
+  }
+  @media screen and (max-width:769px){
+    .container__subtitle{
+      padding:0 0 24px 24px;
+    }
+  }
+  @media screen and (max-width:425px){
+    .container__subtitle{
+      padding:0 0 16px 16px;
+    }
+  }

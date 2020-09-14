@@ -1,0 +1,16 @@
+.container__item-bg{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+    z-index: 0;
+    display: block;
+    overflow: hidden;
+    z-index: -2;
+    border-radius: 5px;
+}

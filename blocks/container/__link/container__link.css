@@ -1,0 +1,34 @@
+.container__link{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 0;
+    overflow: hidden;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.container__link:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(42, 44, 47, 1);
+    opacity: 0.3;
+    z-index: -1;
+    transition: opacity 200ms ease-in-out;
+  }
+  .container__link:hover:before {
+    opacity: 0.5;
+    transition: ease-in-out 0.5s;
+  }

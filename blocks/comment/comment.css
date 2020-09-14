@@ -1,0 +1,22 @@
+@import url(./_large/comment_large.css);
+@import url(./_medium/comment_medium.css);
+@import url(./_small/comment_small.css);
+@import url(./__author/comment__author.css);
+@import url(./__image/comment__image.css);
+@import url(./__image/_large/comment__image_large.css);
+@import url(./__image/_medium/comment__image_medium.css);
+@import url(./__image/_small/comment__image_small.css);
+@import url(./__image-pic/comment__image-pic.css);
+@import url(./__image-pic/_large/comment__image-pic_large.css);
+@import url(./__image-pic/_medium/comment__image-pic_medium.css);
+@import url(./__image-pic/_small/comment__image-pic_small.css);
+@import url(./__quote/comment__quote.css);
+
+
+.comment{
+    max-width:382px;
+    width:100%;
+    padding-top: 139px;
+    position: relative;
+    
+  }
